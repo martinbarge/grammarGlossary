@@ -1,10 +1,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+
+
 <dl id="quote"></dl>
 
 <div>
   <button id="btn1">Show idiom</button>
 </div>
+
 
 
 <script>
@@ -21,11 +24,12 @@ btn.on("click", function(e) {
     let meaning = result['idioms'][id]['meaning'];
     let example = result['idioms'][id]['example'];
     let audio = result['idioms'][id]['audio'];
-
-    let dstring = "Idiom: " + idiom + " Meaning: " + meaning + " Example: " + example;
-    //dataContainer.text(dstring);
     
-    document.querySelector("#quote").innerHTML = "<dt>" + idiom + "</dt>" + "<dd><img src='" + example + "' /></dd><dd>" + audio + "</dd><dd><strong>Meaning:</strong> " + meaning + "</dd>" ;
+
+let dstring = "Idiom: " + idiom + " Meaning: " + meaning + " Example: " + example;
+    
+       //dataContainer.text(dstring);
+document.querySelector("#quote").innerHTML = "<dt>" + idiom + "</dt>" + "<dd><img src='" + example + "' /></dd><audio><src='" + audio + "'type=\'audio/mpeg\'/></dd><dd><strong>Meaning:</strong> " + meaning + "</dd>" ;
   });
 
 });
