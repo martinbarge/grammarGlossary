@@ -20,11 +20,12 @@ btn.on("click", function(e) {
     let idiom = result['idioms'][id]['idiom'];
     let meaning = result['idioms'][id]['meaning'];
     let example = result['idioms'][id]['example'];
+    let audio = result['idioms'][id]['audio'];
 
     let dstring = "Idiom: " + idiom + " Meaning: " + meaning + " Example: " + example;
     //dataContainer.text(dstring);
     
-    document.querySelector("#quote").innerHTML = "<dt>" + idiom + "</dt>" + "<dd><img src='" + example + "' /></dd><dd><strong>Meaning:</strong> " + meaning + "</dd>" ;
+    document.querySelector("#quote").innerHTML = "<dt>" + idiom + "</dt>" + "<dd><img src='" + example + "' /></dd><dd>" + audio + "</dd><dd><strong>Meaning:</strong> " + meaning + "</dd>" ;
   });
 
 });
