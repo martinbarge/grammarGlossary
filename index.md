@@ -29,7 +29,7 @@ btn.on("click", function(e) {
       let dstring = "Idiom: " + idiom + " Meaning: " + meaning + " Example: " + example;
     
        //dataContainer.text(dstring);
-document.querySelector("#quote").innerHTML = "<dt>" + idiom + "</dt>" + "<dd><img src='" + example + "' /></dd><audio controls><src='" + audio + "' type=\"audio/mpeg\"></audio></dd><dd><strong>Meaning:</strong> " + meaning + "</dd>" ;
+document.querySelector("#quote").innerHTML = "<dt>" + idiom + "</dt>" + "<dd><img src='" + example + "' /></dd><audio controls><source src='" + audio + "' type=\"audio/mpeg\"></audio></dd><dd><strong>Meaning:</strong> " + meaning + "</dd>" ;
   });
 
 });
