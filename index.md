@@ -24,7 +24,7 @@ btn.on("click", function(e) {
     let dstring = "Idiom: " + idiom + " Meaning: " + meaning + " Example: " + example;
     //dataContainer.text(dstring);
     
-    document.querySelector("#quote").innerHTML = "<dt>" + idiom + "</dt>" + "<dd><img src=" + example + "/></dd><dd><strong>Meaning:</strong> " + meaning + "</dd>" ;
+    document.querySelector("#quote").innerHTML = "<dt>" + idiom + "</dt>" + "<dd><img src='" + example + "' /></dd><dd><strong>Meaning:</strong> " + meaning + "</dd>" ;
   });
 
 });
