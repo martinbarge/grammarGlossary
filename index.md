@@ -13,7 +13,7 @@ var btn = $("#btn1");
 btn.on("click", function(e) {
 
   $.ajax({
-    url: "https://martinbarge.github.io/grammarGlossary/items.json",
+    url: "items.json",
     dataType: "json"
   }).done(function(result) {
     let id = Math.floor(Math.random() * 5);
