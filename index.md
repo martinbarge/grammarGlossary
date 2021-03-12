@@ -19,7 +19,7 @@ btn.on("click", function(e) {
     url: "items.json",
     dataType: "json"
   }).done(function(result) {
-    let id = Math.floor(Math.random() * 3);
+    let id = Math.floor(Math.random() * 5);
     let item = result['items'][id]['item'];
     let meaning = result['items'][id]['meaning'];
     let image = result['items'][id]['image'];
@@ -29,7 +29,7 @@ btn.on("click", function(e) {
       let dstring = "Idiom: " + idiom + " Meaning: " + meaning + " Example: " + example;
     
        //dataContainer.text(dstring);
-document.querySelector("#quote").innerHTML = "<dt>" + item + "</dt>" + "<dd><img src='" + image + "' /></dd><audio controls><source src='" + audio + "' type=\"audio/mpeg\"></audio></dd><dd><strong>Meaning:</strong> " + meaning + "</dd>" ;
+document.querySelector("#quote").innerHTML = "<dt>" + item + "</dt>" + "<dd><img src='" + image + "' /></dd><audio controls><source src='" + audio + "' type=\"audio/mpeg\"></audio></dd><dd><strong>Meaning:</strong>" + meaning + "</dd>" ;
   });
 
 });
