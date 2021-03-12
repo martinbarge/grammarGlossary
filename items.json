@@ -1,29 +1,7 @@
 {
-"items": 
-[
-{
-"item": "Adjectival Clause", 
-"meaning": "An adjectival clause, also called a relative clause will:.", 
-"image": "image16.jpg", 
-"zoomimage": "imageZoom16.jpg", 
-"audio": "audio51.mp3"
-}, 
-
-{
-"item": "Adjective", 
-"meaning": "An adjective gives information about a noun, to describe the noun (person, place, thing, concept) in more detail. Examples The happy man smiled at the girl. The interesting lesson pleased all the class. The student was bored. The lecturer had been educated at Oxford.", 
-"image": "image0.jpg", 
-"zoomimage": "imageZoom0.jpg", 
-"audio": "audio52.mp3"
-},
-
-{
-"item": "Adverb", 
-"meaning": "An adverb modifies a or an adjective Examples: \"I speak English well.\"  In this example, the adverb 'well' is modifying the verb 'speak'.\"I particularly like Japanese food.\" In this example, the adverb 'particularly' is modifying the verb 'like'.", 
-"image": "image3.jpg", 
-"zoomimage": "imageZoom3.jpg", 
-"audio": "audio54.mp3"
-}
-
+"items": [
+{"item": "Adjectival Clause", "meaning": "An adjectival clause, also called a relative clause will:.", "image": "image16.jpg", "zoomimage": "imageZoom16.jpg", "audio": "audio51.mp3"}, 
+{"item": "Adjective", "meaning": "An adjective gives information about a noun.", "image": "image0.jpg", "zoomimage": "imageZoom0.jpg", "audio": "audio52.mp3"},
+{"item": "Adverb", "meaning": "An adverb modifies a or an adjective.", "image": "image3.jpg", "zoomimage": "imageZoom3.jpg", "audio": "audio54.mp3"}
 ]
 }
